@@ -117,7 +117,17 @@ struct EditorScreen: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ListScreen()
+        ListScreen().onAppear {
+            let realm = try! Realm()
+            try! realm.write {
+                realm.deleteAll()
+            }
+            let item = Item()
+            item.name = "preview item"
+            try! realm.write {
+                realm.add(item)
+            }
+        }
     }
 }
 
