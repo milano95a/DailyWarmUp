@@ -20,6 +20,7 @@ struct EditorScreen: View {
                 TextField("text", text: $text)
                     .padding()
                     .font(.custom("SourceSansPro-Black", size: 18))
+                    .foregroundColor(.black)
                 Button("save") {
                     if let item = item {
                         vm.update(item, text)
@@ -29,7 +30,7 @@ struct EditorScreen: View {
                     dismiss()
                 }.modifier(MyButtonStyle())
                 Spacer()
-            }
+            }.background(Color.lightGray)
         }.onAppear {
             if let item = item {
                 text = item.name
