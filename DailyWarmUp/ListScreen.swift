@@ -17,10 +17,10 @@ struct ListScreen: View {
                             .swipeActions(content: {
                                 Button("delete") {
                                     vm.delete(item)
-                                }
+                                }.tint(.red)
                                 NavigationLink(destination: EditorScreen(item: item), label: {
                                     Text("update")
-                                })
+                                }).tint(.blue)
                             }).listRowBackground(Color.white)
                     }.scrollContentBackground(.hidden)
                 } else {
@@ -42,4 +42,10 @@ struct ContentView_Previews: PreviewProvider {
 
 extension Color {
     static var lightGray = Color(red: 240/255, green: 240/255, blue: 240/255)
+}
+
+extension Font {
+    static func defaultFont(size: CGFloat) -> Font {
+        return Font.custom("SourceSansPro-Black", size: size)
+    }
 }
