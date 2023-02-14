@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD40A49C299B7BB500C965E2 /* DailyWarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */; };
-		BD40A49E299B7BB500C965E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A49D299B7BB500C965E2 /* ContentView.swift */; };
+		BD40A49E299B7BB500C965E2 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A49D299B7BB500C965E2 /* ListScreen.swift */; };
 		BD40A4A0299B7BB700C965E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD40A49F299B7BB700C965E2 /* Assets.xcassets */; };
 		BD40A4A3299B7BB700C965E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD40A4A2299B7BB700C965E2 /* Preview Assets.xcassets */; };
 		BD40A4AC299B7F9400C965E2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AB299B7F9400C965E2 /* Realm */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		BD40A498299B7BB500C965E2 /* DailyWarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyWarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWarmUpApp.swift; sourceTree = "<group>"; };
-		BD40A49D299B7BB500C965E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD40A49D299B7BB500C965E2 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 		BD40A49F299B7BB700C965E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD40A4A2299B7BB700C965E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD40A4AF299B803500C965E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		BD40A49A299B7BB500C965E2 /* DailyWarmUp */ = {
 			isa = PBXGroup;
 			children = (
-				BD40A49D299B7BB500C965E2 /* ContentView.swift */,
+				BD40A49D299B7BB500C965E2 /* ListScreen.swift */,
 				BD40A4AF299B803500C965E2 /* Item.swift */,
 				BD40A4A9299B7D3500C965E2 /* Supporting Files */,
 				BD40A4A1299B7BB700C965E2 /* Preview Content */,
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD40A49E299B7BB500C965E2 /* ContentView.swift in Sources */,
+				BD40A49E299B7BB500C965E2 /* ListScreen.swift in Sources */,
 				BD40A49C299B7BB500C965E2 /* DailyWarmUpApp.swift in Sources */,
 				BD40A4B0299B803500C965E2 /* Item.swift in Sources */,
 			);
