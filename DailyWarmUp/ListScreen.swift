@@ -16,6 +16,7 @@ struct ListScreen: View {
             VStack {
                 List(items) { item in
                     Text(item.name)
+                        .font(.custom("SourceSansPro-Black", size: 18))
                         .swipeActions(content: {
                             Button("delete") {
                                 delete(item)
@@ -69,6 +70,7 @@ struct EditorScreen: View {
             VStack {
                 TextField("text", text: $text)
                     .padding()
+                    .font(.custom("SourceSansPro-Black", size: 18))
                 Button("save") {
                     if let item = item {
                         update(item, text)

@@ -14,6 +14,7 @@
 		BD40A4AC299B7F9400C965E2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AB299B7F9400C965E2 /* Realm */; };
 		BD40A4AE299B7F9400C965E2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AD299B7F9400C965E2 /* RealmSwift */; };
 		BD40A4B0299B803500C965E2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4AF299B803500C965E2 /* Item.swift */; };
+		BD40A4B2299BA7DC00C965E2 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		BD40A49F299B7BB700C965E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD40A4A2299B7BB700C965E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD40A4AF299B803500C965E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		BD40A4B3299BA7F900C965E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		BD40A49A299B7BB500C965E2 /* DailyWarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				BD40A4B3299BA7F900C965E2 /* Info.plist */,
+				BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */,
 				BD40A49D299B7BB500C965E2 /* ListScreen.swift */,
 				BD40A4AF299B803500C965E2 /* Item.swift */,
 				BD40A4A9299B7D3500C965E2 /* Supporting Files */,
@@ -148,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD40A4A3299B7BB700C965E2 /* Preview Assets.xcassets in Resources */,
+				BD40A4B2299BA7DC00C965E2 /* SourceSansPro-Black.ttf in Resources */,
 				BD40A4A0299B7BB700C965E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +299,7 @@
 				DEVELOPMENT_TEAM = VPJ4257952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyWarmUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +329,7 @@
 				DEVELOPMENT_TEAM = VPJ4257952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyWarmUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
