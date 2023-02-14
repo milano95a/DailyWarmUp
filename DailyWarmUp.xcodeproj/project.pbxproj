@@ -51,9 +51,8 @@
 		BD40A49A299B7BB500C965E2 /* DailyWarmUp */ = {
 			isa = PBXGroup;
 			children = (
-				BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */,
 				BD40A49D299B7BB500C965E2 /* ContentView.swift */,
-				BD40A49F299B7BB700C965E2 /* Assets.xcassets */,
+				BD40A4A9299B7D3500C965E2 /* Supporting Files */,
 				BD40A4A1299B7BB700C965E2 /* Preview Content */,
 			);
 			path = DailyWarmUp;
@@ -65,6 +64,15 @@
 				BD40A4A2299B7BB700C965E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD40A4A9299B7D3500C965E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */,
+				BD40A49F299B7BB700C965E2 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
