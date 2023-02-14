@@ -36,8 +36,12 @@ struct ListScreen: View {
         guard let thawedObj = item.thaw() else { return }
         assert(thawedObj.isFrozen == false)
         guard let thawedRealm = thawedObj.realm else { return }
-        try! thawedRealm.write {
-            thawedRealm.delete(thawedObj)
+        do {
+            try thawedRealm.write {
+                thawedRealm.delete(thawedObj)
+            }
+        } catch let error {
+            print(error)
         }
     }
     
@@ -45,8 +49,12 @@ struct ListScreen: View {
         guard let thawedObj = item.thaw() else { return }
         assert(thawedObj.isFrozen == false)
         guard let thawedRealm = thawedObj.realm else { return }
-        try! thawedRealm.write {
-            thawedObj.name = "\(thawedObj.name) updated"
+        do {
+            try thawedRealm.write {
+                thawedObj.name = "\(thawedObj.name) updated"
+            }
+        } catch let error {
+            print(error)
         }
     }
 }
@@ -54,6 +62,7 @@ struct ListScreen: View {
 struct EditorScreen: View {
     @State var text = ""
     @State var item: Item?
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationStack {
@@ -66,6 +75,7 @@ struct EditorScreen: View {
                     } else {
                         save(text)
                     }
+                    dismiss()
                 }.modifier(MyButtonStyle())
                 Spacer()
             }
@@ -80,17 +90,25 @@ struct EditorScreen: View {
         guard let thawedObj = item.thaw() else { return }
         assert(thawedObj.isFrozen == false)
         guard let thawedRealm = thawedObj.realm else { return }
-        try! thawedRealm.write {
-            thawedObj.name = text
+        do {
+            try thawedRealm.write {
+                thawedObj.name = text
+            }
+        } catch let error {
+            print(error)
         }
     }
     
     func save(_ text: String) {
-        let realm = try! Realm()
-        let item = Item()
-        item.name = text
-        try! realm.write {
-            realm.add(item)
+        do {
+            let realm = try Realm()
+            let item = Item()
+            item.name = text
+            try realm.write {
+                realm.add(item)
+            }
+        } catch let error {
+            print(error)
         }
     }
 }
