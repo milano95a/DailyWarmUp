@@ -15,7 +15,23 @@
 		BD40A4AE299B7F9400C965E2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AD299B7F9400C965E2 /* RealmSwift */; };
 		BD40A4B0299B803500C965E2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4AF299B803500C965E2 /* Item.swift */; };
 		BD40A4B2299BA7DC00C965E2 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */; };
+		BD40A4C9299BAECD00C965E2 /* ListScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4C8299BAECD00C965E2 /* ListScreenViewModel.swift */; };
+		BD40A4D1299BAF5C00C965E2 /* DailyWarmUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4D0299BAF5C00C965E2 /* DailyWarmUpTests.swift */; };
+		BD40A4D9299BAF6500C965E2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4D8299BAF6500C965E2 /* Realm */; };
+		BD40A4DB299BAF6500C965E2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4DA299BAF6500C965E2 /* RealmSwift */; };
+		BD40A4DD299BB04000C965E2 /* EditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4DC299BB04000C965E2 /* EditorScreen.swift */; };
+		BD40A4DF299BB0AA00C965E2 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4DE299BB0AA00C965E2 /* MyButtonStyle.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD40A4D2299BAF5C00C965E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD40A490299B7BB500C965E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD40A497299B7BB500C965E2;
+			remoteInfo = DailyWarmUp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BD40A498299B7BB500C965E2 /* DailyWarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyWarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +42,11 @@
 		BD40A4AF299B803500C965E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
 		BD40A4B3299BA7F900C965E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD40A4C8299BAECD00C965E2 /* ListScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreenViewModel.swift; sourceTree = "<group>"; };
+		BD40A4CE299BAF5C00C965E2 /* DailyWarmUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyWarmUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD40A4D0299BAF5C00C965E2 /* DailyWarmUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWarmUpTests.swift; sourceTree = "<group>"; };
+		BD40A4DC299BB04000C965E2 /* EditorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorScreen.swift; sourceTree = "<group>"; };
+		BD40A4DE299BB0AA00C965E2 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD40A4CB299BAF5C00C965E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD40A4DB299BAF6500C965E2 /* RealmSwift in Frameworks */,
+				BD40A4D9299BAF6500C965E2 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				BD40A49A299B7BB500C965E2 /* DailyWarmUp */,
+				BD40A4CF299BAF5C00C965E2 /* DailyWarmUpTests */,
 				BD40A499299B7BB500C965E2 /* Products */,
+				BD40A4D7299BAF6500C965E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				BD40A498299B7BB500C965E2 /* DailyWarmUp.app */,
+				BD40A4CE299BAF5C00C965E2 /* DailyWarmUpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				BD40A4B3299BA7F900C965E2 /* Info.plist */,
-				BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */,
 				BD40A49D299B7BB500C965E2 /* ListScreen.swift */,
+				BD40A4C8299BAECD00C965E2 /* ListScreenViewModel.swift */,
+				BD40A4DC299BB04000C965E2 /* EditorScreen.swift */,
 				BD40A4AF299B803500C965E2 /* Item.swift */,
+				BD40A4DE299BB0AA00C965E2 /* MyButtonStyle.swift */,
 				BD40A4A9299B7D3500C965E2 /* Supporting Files */,
 				BD40A4A1299B7BB700C965E2 /* Preview Content */,
 			);
@@ -81,10 +116,26 @@
 		BD40A4A9299B7D3500C965E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD40A4B1299BA7DC00C965E2 /* SourceSansPro-Black.ttf */,
 				BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */,
 				BD40A49F299B7BB700C965E2 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD40A4CF299BAF5C00C965E2 /* DailyWarmUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD40A4D0299BAF5C00C965E2 /* DailyWarmUpTests.swift */,
+			);
+			path = DailyWarmUpTests;
+			sourceTree = "<group>";
+		};
+		BD40A4D7299BAF6500C965E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +162,28 @@
 			productReference = BD40A498299B7BB500C965E2 /* DailyWarmUp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BD40A4CD299BAF5C00C965E2 /* DailyWarmUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD40A4D4299BAF5C00C965E2 /* Build configuration list for PBXNativeTarget "DailyWarmUpTests" */;
+			buildPhases = (
+				BD40A4CA299BAF5C00C965E2 /* Sources */,
+				BD40A4CB299BAF5C00C965E2 /* Frameworks */,
+				BD40A4CC299BAF5C00C965E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD40A4D3299BAF5C00C965E2 /* PBXTargetDependency */,
+			);
+			name = DailyWarmUpTests;
+			packageProductDependencies = (
+				BD40A4D8299BAF6500C965E2 /* Realm */,
+				BD40A4DA299BAF6500C965E2 /* RealmSwift */,
+			);
+			productName = DailyWarmUpTests;
+			productReference = BD40A4CE299BAF5C00C965E2 /* DailyWarmUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +196,10 @@
 				TargetAttributes = {
 					BD40A497299B7BB500C965E2 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					BD40A4CD299BAF5C00C965E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD40A497299B7BB500C965E2;
 					};
 				};
 			};
@@ -143,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				BD40A497299B7BB500C965E2 /* DailyWarmUp */,
+				BD40A4CD299BAF5C00C965E2 /* DailyWarmUpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +236,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD40A4CC299BAF5C00C965E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -166,12 +251,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD40A49E299B7BB500C965E2 /* ListScreen.swift in Sources */,
+				BD40A4DF299BB0AA00C965E2 /* MyButtonStyle.swift in Sources */,
 				BD40A49C299B7BB500C965E2 /* DailyWarmUpApp.swift in Sources */,
+				BD40A4C9299BAECD00C965E2 /* ListScreenViewModel.swift in Sources */,
 				BD40A4B0299B803500C965E2 /* Item.swift in Sources */,
+				BD40A4DD299BB04000C965E2 /* EditorScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD40A4CA299BAF5C00C965E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD40A4D1299BAF5C00C965E2 /* DailyWarmUpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD40A4D3299BAF5C00C965E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD40A497299B7BB500C965E2 /* DailyWarmUp */;
+			targetProxy = BD40A4D2299BAF5C00C965E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BD40A4A4299B7BB700C965E2 /* Debug */ = {
@@ -348,6 +452,42 @@
 			};
 			name = Release;
 		};
+		BD40A4D5299BAF5C00C965E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPJ4257952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWarmUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyWarmUp";
+			};
+			name = Debug;
+		};
+		BD40A4D6299BAF5C00C965E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPJ4257952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWarmUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyWarmUp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +505,15 @@
 			buildConfigurations = (
 				BD40A4A7299B7BB700C965E2 /* Debug */,
 				BD40A4A8299B7BB700C965E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD40A4D4299BAF5C00C965E2 /* Build configuration list for PBXNativeTarget "DailyWarmUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD40A4D5299BAF5C00C965E2 /* Debug */,
+				BD40A4D6299BAF5C00C965E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -389,6 +538,16 @@
 			productName = Realm;
 		};
 		BD40A4AD299B7F9400C965E2 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		BD40A4D8299BAF6500C965E2 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BD40A4DA299BAF6500C965E2 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;

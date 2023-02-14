@@ -1,9 +1,3 @@
-//
-//  Product.swift
-//  DailyWarmUp
-//
-//  Created by Workspace on 14/02/23.
-//
 
 import Foundation
 import RealmSwift
