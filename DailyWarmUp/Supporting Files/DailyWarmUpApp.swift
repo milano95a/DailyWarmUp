@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct DailyWarmUpApp: App {
+struct DailyWarmUpApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             ListScreen()
+                .environment(\.realmConfiguration, .init(schemaVersion: 0))
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD362D94299CBE1B0096A571 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD362D93299CBE1B0096A571 /* SourceSansPro-Black.ttf */; };
 		BD40A49C299B7BB500C965E2 /* DailyWarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */; };
 		BD40A49E299B7BB500C965E2 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A49D299B7BB500C965E2 /* ListScreen.swift */; };
 		BD40A4A0299B7BB700C965E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD40A49F299B7BB700C965E2 /* Assets.xcassets */; };
@@ -14,15 +15,42 @@
 		BD40A4AC299B7F9400C965E2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AB299B7F9400C965E2 /* Realm */; };
 		BD40A4AE299B7F9400C965E2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD40A4AD299B7F9400C965E2 /* RealmSwift */; };
 		BD40A4B0299B803500C965E2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A4AF299B803500C965E2 /* Item.swift */; };
+		BDB8A3F2299CC13400794197 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8A3F1299CC13400794197 /* ViewModel.swift */; };
+		BDB8A3F4299CC1B900794197 /* EditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8A3F3299CC1B900794197 /* EditorScreen.swift */; };
+		BDB8A3F6299CC22000794197 /* MyModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8A3F5299CC22000794197 /* MyModifiers.swift */; };
+		BDB8A3F8299CC23D00794197 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8A3F7299CC23D00794197 /* MyExtensions.swift */; };
+		BDB8A400299CCF7E00794197 /* DailyWarmUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8A3FF299CCF7E00794197 /* DailyWarmUpTests.swift */; };
+		BDB8A408299CD00900794197 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BDB8A407299CD00900794197 /* Realm */; };
+		BDB8A40A299CD00900794197 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDB8A409299CD00900794197 /* RealmSwift */; };
+		BDFDF3F1299D014B00326716 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDFDF3F0299D014B00326716 /* SourceSansPro-Regular.ttf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BDB8A401299CCF7E00794197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD40A490299B7BB500C965E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD40A497299B7BB500C965E2;
+			remoteInfo = DailyWarmUp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		BD362D93299CBE1B0096A571 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
 		BD40A498299B7BB500C965E2 /* DailyWarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyWarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWarmUpApp.swift; sourceTree = "<group>"; };
 		BD40A49D299B7BB500C965E2 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 		BD40A49F299B7BB700C965E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD40A4A2299B7BB700C965E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD40A4AF299B803500C965E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BDB8A3F0299CC09C00794197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDB8A3F1299CC13400794197 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BDB8A3F3299CC1B900794197 /* EditorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorScreen.swift; sourceTree = "<group>"; };
+		BDB8A3F5299CC22000794197 /* MyModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModifiers.swift; sourceTree = "<group>"; };
+		BDB8A3F7299CC23D00794197 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		BDB8A3FD299CCF7E00794197 /* DailyWarmUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyWarmUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB8A3FF299CCF7E00794197 /* DailyWarmUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWarmUpTests.swift; sourceTree = "<group>"; };
+		BDFDF3F0299D014B00326716 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDB8A3FA299CCF7E00794197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB8A40A299CD00900794197 /* RealmSwift in Frameworks */,
+				BDB8A408299CD00900794197 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,7 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				BD40A49A299B7BB500C965E2 /* DailyWarmUp */,
+				BDB8A3FE299CCF7E00794197 /* DailyWarmUpTests */,
 				BD40A499299B7BB500C965E2 /* Products */,
+				BDB8A406299CD00900794197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				BD40A498299B7BB500C965E2 /* DailyWarmUp.app */,
+				BDB8A3FD299CCF7E00794197 /* DailyWarmUpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,8 +97,13 @@
 		BD40A49A299B7BB500C965E2 /* DailyWarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				BDB8A3F0299CC09C00794197 /* Info.plist */,
 				BD40A49D299B7BB500C965E2 /* ListScreen.swift */,
+				BDB8A3F3299CC1B900794197 /* EditorScreen.swift */,
+				BDB8A3F1299CC13400794197 /* ViewModel.swift */,
 				BD40A4AF299B803500C965E2 /* Item.swift */,
+				BDB8A3F5299CC22000794197 /* MyModifiers.swift */,
+				BDB8A3F7299CC23D00794197 /* MyExtensions.swift */,
 				BD40A4A9299B7D3500C965E2 /* Supporting Files */,
 				BD40A4A1299B7BB700C965E2 /* Preview Content */,
 			);
@@ -76,10 +121,27 @@
 		BD40A4A9299B7D3500C965E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDFDF3F0299D014B00326716 /* SourceSansPro-Regular.ttf */,
+				BD362D93299CBE1B0096A571 /* SourceSansPro-Black.ttf */,
 				BD40A49B299B7BB500C965E2 /* DailyWarmUpApp.swift */,
 				BD40A49F299B7BB700C965E2 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB8A3FE299CCF7E00794197 /* DailyWarmUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8A3FF299CCF7E00794197 /* DailyWarmUpTests.swift */,
+			);
+			path = DailyWarmUpTests;
+			sourceTree = "<group>";
+		};
+		BDB8A406299CD00900794197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +168,28 @@
 			productReference = BD40A498299B7BB500C965E2 /* DailyWarmUp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BDB8A3FC299CCF7E00794197 /* DailyWarmUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB8A403299CCF7E00794197 /* Build configuration list for PBXNativeTarget "DailyWarmUpTests" */;
+			buildPhases = (
+				BDB8A3F9299CCF7E00794197 /* Sources */,
+				BDB8A3FA299CCF7E00794197 /* Frameworks */,
+				BDB8A3FB299CCF7E00794197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB8A402299CCF7E00794197 /* PBXTargetDependency */,
+			);
+			name = DailyWarmUpTests;
+			packageProductDependencies = (
+				BDB8A407299CD00900794197 /* Realm */,
+				BDB8A409299CD00900794197 /* RealmSwift */,
+			);
+			productName = DailyWarmUpTests;
+			productReference = BDB8A3FD299CCF7E00794197 /* DailyWarmUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -118,6 +202,10 @@
 				TargetAttributes = {
 					BD40A497299B7BB500C965E2 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					BDB8A3FC299CCF7E00794197 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD40A497299B7BB500C965E2;
 					};
 				};
 			};
@@ -138,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				BD40A497299B7BB500C965E2 /* DailyWarmUp */,
+				BDB8A3FC299CCF7E00794197 /* DailyWarmUpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +237,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD40A4A3299B7BB700C965E2 /* Preview Assets.xcassets in Resources */,
+				BD362D94299CBE1B0096A571 /* SourceSansPro-Black.ttf in Resources */,
 				BD40A4A0299B7BB700C965E2 /* Assets.xcassets in Resources */,
+				BDFDF3F1299D014B00326716 /* SourceSansPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB8A3FB299CCF7E00794197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,13 +257,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB8A3F8299CC23D00794197 /* MyExtensions.swift in Sources */,
+				BDB8A3F4299CC1B900794197 /* EditorScreen.swift in Sources */,
 				BD40A49E299B7BB500C965E2 /* ListScreen.swift in Sources */,
 				BD40A49C299B7BB500C965E2 /* DailyWarmUpApp.swift in Sources */,
+				BDB8A3F2299CC13400794197 /* ViewModel.swift in Sources */,
+				BDB8A3F6299CC22000794197 /* MyModifiers.swift in Sources */,
 				BD40A4B0299B803500C965E2 /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDB8A3F9299CCF7E00794197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB8A400299CCF7E00794197 /* DailyWarmUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB8A402299CCF7E00794197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD40A497299B7BB500C965E2 /* DailyWarmUp */;
+			targetProxy = BDB8A401299CCF7E00794197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BD40A4A4299B7BB700C965E2 /* Debug */ = {
@@ -293,6 +411,8 @@
 				DEVELOPMENT_TEAM = VPJ4257952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyWarmUp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FinSec Day10";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,7 +423,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUp.day10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,6 +442,8 @@
 				DEVELOPMENT_TEAM = VPJ4257952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyWarmUp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FinSec Day10";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,11 +454,47 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUp.day10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB8A404299CCF7E00794197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPJ4257952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWarmUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyWarmUp";
+			};
+			name = Debug;
+		};
+		BDB8A405299CCF7E00794197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPJ4257952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.DailyWarmUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWarmUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyWarmUp";
 			};
 			name = Release;
 		};
@@ -361,6 +519,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BDB8A403299CCF7E00794197 /* Build configuration list for PBXNativeTarget "DailyWarmUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB8A404299CCF7E00794197 /* Debug */,
+				BDB8A405299CCF7E00794197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -381,6 +548,16 @@
 			productName = Realm;
 		};
 		BD40A4AD299B7F9400C965E2 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		BDB8A407299CD00900794197 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BDB8A409299CD00900794197 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BD40A4AA299B7F9400C965E2 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "638057E0-7BD6-4DCE-A4E5-3673ED79F3B6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44DC7053-AD6C-4361-A707-857DC5FC92C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUp/ListScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCB7A108-150C-48F8-BB7E-90C8600350CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUp/ListScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CCB7A108-150C-48F8-BB7E-90C8600350CB - c3d46174671f7c53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0, SwiftUI.Color&gt;, SwiftUI.ModifiedContent&lt;SwiftUI.NavigationLink&lt;SwiftUI.Text, DailyWarmUp.EditorScreen&gt;, DailyWarmUp.MyButtonStyle&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(_: &#x3c4;_1_0, ignoresSafeAreaEdges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DailyWarmUp.ListScreen.body.getter : some"
+                  moduleName = "DailyWarmUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workspace/Developer/DailyWarmUp/DailyWarmUp/ListScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "CCB7A108-150C-48F8-BB7E-90C8600350CB - 40a810dc18f26a4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DailyWarmUp.X) -&gt; &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0, SwiftUI.Color&gt;, SwiftUI.ModifiedContent&lt;SwiftUI.NavigationLink&lt;SwiftUI.Text, DailyWarmUp.EditorScreen&gt;, DailyWarmUp.MyButtonStyle&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(_: &#x3c4;_1_0, ignoresSafeAreaEdges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DailyWarmUp.ListScreen.body.getter : some"
+                  moduleName = "DailyWarmUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workspace/Developer/DailyWarmUp/DailyWarmUp/ListScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5469209E-737F-42A9-9F42-2B3FC0192AC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUp/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "calculate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31D6D84F-5E66-47F4-8DDD-4C8CC8AC16F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUp/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "save(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F25505E5-9730-480C-8B00-FB2B713BF82E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUp/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "save(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "960DC2B3-A3B7-47B7-BD6F-BFDA67997294"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DailyWarmUpTests/DailyWarmUpTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
